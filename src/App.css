@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #afb0b1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.label {
+  font-size: 20px;
+}
+
+.submit_btn {
+  background-color: #4f4e4e;
+    color: white;
+    padding: 10px 27px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.input_box {
+  padding: 10px 10px;
+  border-radius: 6px;
+  border: 0px;
+  margin: 5px;
 }
