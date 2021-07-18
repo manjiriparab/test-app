@@ -30,7 +30,7 @@ export class App extends React.Component {
   render() {
     return (
       <div className="App-header">
-        <div>Test Project</div>
+        <div>Test Application</div>
         <br/>
         <div> <input type="text" name="email" placeholder="Email" className="input_box" ref={this.myRef} onChange={this.handleChange}/> </div>
         <div> <input type="password" name="password" placeholder="Password" ref={this.myRef} className="input_box" onChange={this.handleChange} /> </div>
