@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dashboard-tile {
+  padding-top: 50px;
+  display: flex;
+}
+
+.dashboard-description {
+  text-align: center;
+  padding-left: 50px;
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.link {
+  color:aliceblue;
+  text-decoration: none;
+}

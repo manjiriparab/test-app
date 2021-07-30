@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  background-color: #afb0b1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +21,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
+  border: 1px solid grey;
 }
 
 .App-link {
@@ -55,4 +56,13 @@
   border-radius: 6px;
   border: 0px;
   margin: 5px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.sign-in-btn {
+  color: white;
+  background-color: black;
 }
